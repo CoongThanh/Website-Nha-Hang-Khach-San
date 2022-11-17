@@ -1,0 +1,376 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>SushiSashimi</title>
+	<link href="vendor/fontawesome/css/all.min.css" rel="stylesheet"/>
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+	<link href="css/style.css" rel="stylesheet"/>
+	<link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header class="container-fluid" style="background-image: url('img/nenmenu.png');">
+		<nav class="menu row">
+			<div class="logo col-2 ">
+				<a href="Trangchu.html"><img src="img/pasgo.png" /></a>
+			</div>
+			<div class="col-8 text-center mt-4 mb-3">
+				<a href="Trangchu.html" style="color:#fff"><i class="fa fa-home"></i> Trang chủ</a>
+				<a href="">Giới thiệu</a>
+				<div class="dropdown" style="display:inline-block">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">Nhà hàng</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="Nhahang.html">Thực đơn</a>
+							<a class="dropdown-item" href="#">Đặt bàn</a>
+							<a class="dropdown-item" href="#">Không gian</a>
+						</div>
+				</div>					
+				<div class="dropdown" style="display:inline-block">
+					<a href="" class="dropdown-toggle" data-toggle="dropdown">Khách sạn</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="Khachsan.html">Phòng</a>
+							<a class="dropdown-item" href="#">Đặt phòng </a>
+							<a class="dropdown-item" href="#">Không gian</a>
+						</div>
+				</div>
+				<div class="dropdown" style="display:inline-block">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tin tức</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#">Tin nổi bậc</a>
+							<a class="dropdown-item" href="#">Ẩm thực - Nhà hàng </a>
+							<a class="dropdown-item" href="#">Góc nhìn</a>
+							<a class="dropdown-item" href="#">Tuyển dụng</a>
+						</div>
+				</div>
+				<a href="">Không gian</a>
+				<a href="">Tuyển dụng</a>
+				<a href="Lienhe.html">Liên hệ</a>
+				
+			</div>
+			<div class="header-right text-right col-2 mt-4 mb-3 pr-5 ">
+				<a href="#"><i class="fas fa-shopping-cart"></i></a>
+				<a href="#"><i class="fas fa-search"></i></a>
+				<a href="#" data-toggle="modal" data-target="#loginbox"><i class="fas fa-user"></i></a>
+			</div>
+			</div>
+						<!-- The Modal -->
+				<div class="modal" id="loginbox">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+					  <!-- Modal Header -->
+						  <div class="modal-header">
+							<h4 class="modal-title">ĐĂNG NHẬP TÀI KHOẢN </h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+						  </div>
+						  <!-- Modal body -->
+						  <div class="modal-body">
+							Nhập email và mật khẩu của bạn:
+							<form style="padding: 10px 0px 0px 10px;">
+							 	<p><input type="text" id="e-mail" name="e-mail" placeholder="E-mail"></p>
+							  	<p><input type="text" id="pass" name="pass" placeholder="Mật khẩu"></p>
+							</form>
+							<a href="" class="submit"> Đăng nhập</a>
+							<div class="registration">
+								<span>Khách hàng mới? <a href="">Tạo tài khoản</a></span>
+							</div>
+							<div class="registration">
+								<span>Quên mật khẩu?<a href="">Khôi phục mật khẩu</a></span>
+							</div>
+						  </div>
+						</div>
+					  </div>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main style="background: #000";>
+		<section >
+			<div class="rew">
+				<nav aria-label="breadcrumb">
+				  <ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="Trangchu.html"><i class="fa fa-home"></i> Trang chủ</a></li>
+					<li class="breadcrumb-item"><a href="Nhahang.html"> Nhà hàng </a></li>
+					<li class="breadcrumb-item"><a href=""> Sushi Sashimi </a></li>
+				  </ol>
+				</nav>
+			</div>
+		</section>
+		<section style="background-image: url('img/nennhahang.png');">
+			<div class="productbox" >
+				<div class="row ">
+					<div class="col-sm-8">
+						<div class="image">
+							<section class="box-image">
+								<div id="pic" class="carousel slide" data-ride="carousel" data-interval="2000">
+							  		<ul class="carousel-indicators">
+										<li data-target="#pic" data-slide-to="0" class="active"><img src="img/mon1a.jpg"/></li>
+										<li data-target="#pic" data-slide-to="1"><img src="img/mon1i.jpg"/></li>
+										<li data-target="#pic" data-slide-to="2"><img src="img/mon1h.jpg"/></li>
+										<li data-target="#pic" data-slide-to="3"><img src="img/mon1l.jpg"/></li>
+										<li data-target="#pic" data-slide-to="4"><img src="img/mon1f.jpg"/></li>
+										<li data-target="#pic" data-slide-to="5"><img src="img/mon1k.jpg"/></li>
+										<li data-target="#pic" data-slide-to="6"><img src="img/mon1b.jpg"/></li>
+										<li data-target="#pic" data-slide-to="7"><img src="img/mon1e.jpg"/></li>
+										<li data-target="#pic" data-slide-to="8"><img src="img/mon1g.jpg"/></li>
+										<li data-target="#pic" data-slide-to="9"><img src="img/mon1c.jpg"/></li>
+										<li data-target="#pic" data-slide-to="10"><img src="img/mon1d.jpg"/></li>
+							  		</ul>
+								  	<div class="carousel-inner text-center">
+										<div class="carousel-item active ">
+										  	<a href="img/mon1a.jpg"><img src="img/mon1a.jpg"style="max-width:100% "/></a>						 
+										</div>
+										<div class="carousel-item">
+										  <a href="img/mon1i.jpg"><img src="img/mon1i.jpg"style="max-width:100% "/></a>							 
+										</div>
+										<div class="carousel-item">
+										  <a href="img/mon1h.jpg"><img src="img/mon1h.jpg"style="max-width:100% "/></a>  
+										</div>
+										<div class="carousel-item">								  
+										  <a href="img/mon1l.jpg"><img src="img/mon1l.jpg"style="max-width:100%"/></a>
+										</div>
+										<div class="carousel-item">								  
+										  <a href="img/mon1f.jpg"><img src="img/mon1f.jpg"style="max-width:100%"/></a>
+										</div>
+									    <div class="carousel-item">
+										  <a href="img/mon1k.jpg"><img src="img/mon1k.jpg"style="max-width:100%"/></a>							
+										</div>
+										<div class="carousel-item">
+										  <a href="img/mon1b.jpg"/><img src="img/mon1b.jpg"style="max-width:100%"/></a>								
+										</div>
+										<div class="carousel-item">
+										  <a href="img/mon1e.jpg"/><img src="img/mon1e.jpg"style="max-width:100%"/></a>  
+										</div>
+										<div class="carousel-item">								  
+										  <a href="img/mon1g.jpg"><img src="img/mon1g.jpg"style="max-width:100%"/></a>
+										</div>
+										<div class="carousel-item">								  
+										  <a href="img/mon1c.jpg"><img src="img/mon1c.jpg"style="max-width:100%"/></a>
+										</div>
+										<div class="carousel-item">
+										  <a href="img/mon1d.jpg"><img src="img/mon1d.jpg"style="max-width:100%"/></a>  
+										</div>
+								  	</div>
+								  	<!-- Left and right controls -->
+									<a class="carousel-control-prev" href="#pic" data-slide="prev">
+										<span class="carousel-control-prev-icon"></span>
+								 	</a>
+							  		<a class="carousel-control-next" href="#pic" data-slide="next">
+											<span class="carousel-control-next-icon"></span>
+								  	</a>
+								</div>					  
+							</section>		
+						</div>
+					</div>
+					<div class="restaurant col-sm-4">
+						<div class="booking">
+	                        <h2>Đặt chỗ PasGo kèm ưu đãi</h2>
+	                    </div>
+	                    <div class="special">
+	                        <span>Nên đặt trước khi đến từ 30 phút!<strong>Giảm tới 10%</strong> </span>
+	                    </div>
+	                    <div class="row first">
+		                    <div class="date col-sm-6" >
+								<form action="/action_page.php">
+							  		<input type="date" id="date" name="date">
+								</form>
+							</div>
+							<div class="time col-sm-6">
+	                                <select class="form-control" name="sfTime">          
+	                                    <option value="07:00">07:00</option>
+	                                    <option value="07:30">07:30</option>
+	                                    <option value="08:00">08:00</option>
+	                                    <option value="08:30">08:30</option>
+	                                    <option value="09:00">09:00</option>
+	                                    <option value="09:30">09:30</option>
+	                                    <option value="10:00">10:00</option>
+	                                    <option value="10:30">10:30</option>
+	                                    <option value="11:00">11:00</option>
+	                                    <option value="11:30">11:30</option>
+	                                    <option value="12:00">12:00</option>
+	                                    <option value="12:30">12:30</option>
+	                                    <option value="13:00">13:00</option>
+	                                    <option value="13:30">13:30</option>
+	                                    <option value="14:00">14:00</option>
+	                                    <option value="14:30">14:30</option>
+	                                    <option value="15:00">15:00</option>
+	                                    <option value="15:30">15:30</option>
+	                                    <option value="16:00">16:00</option>
+	                                    <option value="16:30">16:30</option>
+	                                    <option value="17:00">17:00</option>
+	                                    <option value="17:30">17:30</option>
+	                                    <option value="18:00">18:00</option>
+	                                    <option value="18:30">18:30</option>
+	                                    <option value="19:00">19:00</option>
+	                                    <option value="19:30">19:30</option>
+	                                    <option value="20:00">20:00</option>
+	                                    <option value="20:30">20:30</option>
+	                                    <option value="21:00">21:00</option>
+	                                    <option value="21:30">21:30</option>
+	                                    <option value="22:00">22:00</option>
+	                                    <option value="22:30">22:30</option>
+	                                    <option value="23:00">23:00</option>
+	                                    <option value="23:30">23:30</option>
+	                                </select>
+							</div>
+						</div>
+						<div class="row people">
+							<div class="adults input-group col-sm-6">
+							  	<select class="custom-select" id="inputGroupSelect02">
+								    <option selected>1 người lớn</option>
+								    <option value="2">2 người lớn</option>
+								    <option value="3">3 người lớn</option>
+								    <option value="4">4 người lớn</option>
+								    <option value="5">5 người lớn</option>
+								    <option value="6">6 người lớn</option>
+								    <option value="7">7 người lớn</option>
+								    <option value="8">8 người lớn</option>
+								    <option value="9">9 người lớn</option>
+								    <option value="9">10 người lớn</option>
+							 	</select>
+							 
+							</div>
+							<div class="children input-group col-sm-6">
+								<select class="custom-select" id="inputGroupSelect02">
+								    <option selected>0 trẻ em</option>
+								    <option value="1">1 trẻ em</option>
+								    <option value="2">2 trẻ em</option>
+								    <option value="3">3 trẻ em</option>
+								    <option value="4">4 trẻ em</option>
+								    <option value="5">5 trẻ em</option>
+								    <option value="6">6 trẻ em</option>
+								    <option value="7">7 trẻ em</option>
+								    <option value="8">8 trẻ em</option>
+								    <option value="9">9 trẻ em</option>
+								    <option value="1">10 trẻ em</option>
+							 	</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="note col-sm-12">
+								<textarea class="form-control" cols="0" id="txtGhichu" placeholder="Điền ghi chú tại đây..." rows="1"></textarea>
+							</div>
+						</div>   
+	                    <div class="row oder" style="text-center">
+		        			<div class="set col-sm-12">
+		        				<a href="">
+									<p class="btn btn-warning">ĐẶT CHỖ NGAY</p>
+								</a>
+							</div>
+						</div>
+	                    	<div class="booking-call">
+	                    		<p>Hoặc gọi tới :<a href="tel:1900 6005"> 0934 133 133</a> <br/>Để đặt chỗ và được tư vấn.</div></p>
+	                    	</div>                                        
+					</div>
+				</div>
+				<div class="row ">
+					<div class="dear col-sm-9">
+						<h1>
+						 	<span class="star"> 3.8 <i class="fas fa-star"></i></span>
+						 	<span class="title"> Sushi Sashimi</span>
+						 </h1>				
+						<div class="address">
+							<div class="severcuisine"><i class="fas fa-map-marked-alt"></i> Địa chỉ: 65 Đường Huỳnh Thúc Kháng, Phường Bến Nghé, Quận 1, Thành phố Hồ Chí Minh </div>
+							<div class="time">Giờ đón khách : 08h00 - 14h00 & 16h30 - 21h00</div>
+						</div>
+						<div class="content row">
+							<div class="left col-sm-5">
+								<a>Loại hình: </a>
+								<span>Sushi Nhật Bản</span>
+							</div>
+							<div class="right col-sm-7">
+								<span class="range" >Khoảng giá (
+									<span class="evaluate">
+										<span class="filled">
+											<i class="fas fa-dollar-sign"></i>
+											<i class="fas fa-dollar-sign"></i>
+											<i class="fas fa-dollar-sign"></i>
+											<i class="fas fa-dollar-sign"></i>
+										</span>
+										<span class="glyphicon">
+											<i class="fas fa-dollar-sign"></i>
+										</span>
+									</span>
+								): <span class="price">300.000 - 500.000 vnđ/người</span></span>
+							</div>
+						</div>
+					</div>
+					<div class="dear col-sm-3">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="container-fluid" style="background:#000 ">
+		<section>
+			<div class="row menu-footer " >
+				<div class="col-sm-6 inner">
+				<a><h5>ĐĂNG KÍ THÀNH VIÊN </h5></a>
+				<p>Đăng ký nhận thông tin ưu đãi hấp dẫn và khám phá, cập nhật các xu hướng ẩm thực mới lạ, thú vị.</p>
+			</div>
+			<div class="col-sm-6">
+				<p>
+					<form>
+					  <div class="input-group mb-3">
+						<input style="background: #ffffff30;color: #fff;border: none;"type="text" class="form-control" placeholder="Nhập email">
+						<div class="input-group-append">
+						  <span style="background: #ffffff3d;color: #ffd34e;border: none;"class="input-group-text">Đăng kí</span>
+						</div>
+					  </div>
+					</form>
+				</p>
+				</div>	
+			</div>
+		</section>	
+		<section>
+		<div class="row main-footer pb-4" style="background-image: url('img/nenfooter.png');">
+		   	<div class="col-sm-4 inner">
+				<p><a href="Trangchu.html"><img src="img/pasgo.png" alt="pasgo" 
+					style="max-width:50% "></a></p>		
+				<p>PasGo là mạng lưới Nhà hàng-Khách sạn , uy tín và chất lượng. Giúp thực khách đặt bàn dễ dàng, đặt phòng nhanh chóng. Giải pháp đột phá mới cho câu chuyện ăn gì, ở đâu! </p>
+				<p class="row text-white pl-3">
+					<a href="https://www.facebook.com/" target="blank"><i class=" fab fa-facebook-square fa-2x socialb"></i ></a>
+					<a href="https://twitter.com/" target="blank"><i class=" fab fa-twitter-square fa-2x social"></i></a>
+					<a href="https://plus.google.com/" target="blank"><i class=" fab fa-google-plus-square fa-2x social"></i></a>
+					<a href="https://bootsnipp@gmail.com" target="blank"><i class=" fa fa-envelope-square fa-2x social"></i></a>
+				</p>
+        	</div>
+        	<div class="col-sm-3 inner " >
+				<a href="Lienhe.html"><h5>LIÊN HỆ</h5></a>
+				<a href="https://goo.gl/maps/aohuS3XsznCWHmNY9">Địa chỉ : 65 Huỳnh Thúc Kháng, P.Bến Nghé, Quận 1, Tp.Hồ Chí Minh </a>
+				<a href="tel:0353381089"><b>Điện thoại:</b> 035 3381 089 </a>
+				<a href="tel:0934133133"><b>Hotline:</b> 0934 133 133 </a>
+				<a href="mailto:Pasgo@gmail.com"><b>E-mail:</b> Pasgo@gmail.com </a>
+				<a href="#"><b>Website: </b> Pasgo.vn </a>				
+			</div>
+		   	<div class="col-sm-3 inner" style="padding: 0px;">
+				<a><h5>VỀ PASGO </h5></a>
+				<a href="#">Những điều thú vị về PasGo – Có thể bạn chưa biết!</a>
+				<a href="#">Vì sao PasGo đang phát triển!</a>
+				<a href="#">Hướng dẫn đặt bàn - đặt phòng</a>
+				<a href="#">Chính sách bảo mật</a>						
+			</div>
+			<div class="col-sm-2 inner " >
+				<a><h5>TƯƠNG TÁC </h5></a>
+				<a href="#">Khiếu nại</a>
+				<a href="#">Câu hỏi thường gặp</a>
+				<a href="#">Dành cho nhà hàng</a>
+				<a href="#">Tin tức</a>
+				<a href="#">Liên hệ</a>						
+			</div>
+		</div>
+		</section>
+		<section >
+			<div class="container-fluid" style="max-width:100%;">
+				<div class="row text-center">
+	        		<div class="col-md-12 pt-3 pl-2">
+	            		<p class="text-muted">Copyright © 2021 Pizza House. Powered by Haravan</p>
+	    			</div>
+	    		</div>
+			</div>
+		</section>
+	</footer>
+</body>
+</html>
